@@ -50,6 +50,7 @@ plt.scatter(X_train, Y_train)
 plt4, = plt.plot(xx, yy_poly4, label = 'Degree=4')
 
 print "R-squared:" , regressor_poly4.score(X_train_poly4, Y_train)
+print "regressor_poly4_coef:" , regressor_poly4.coef_
 
 
 
